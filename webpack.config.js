@@ -6,7 +6,7 @@ module.exports = {
 		path: path.join(__dirname, "dist"),
 		publicPath: "",
 		filename: "web.js",
-		chunkFilename: "[id].[hash].js",
+		chunkFilename: "[id].[name].[hash].js",
 		jsonpCallback: "a"
 	},
 	module: {
